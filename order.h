@@ -10,13 +10,13 @@ class Order
 {
 public:
     int id;
-    QDate date;
-    Customer customer;
-    Product product;
+    QDate date;    
+    int idCustomer;
+    int idProduct;
     int count;
     int totalSum;
 
-    Order();
+    Order();    
 };
 
 #endif // ORDER_H
